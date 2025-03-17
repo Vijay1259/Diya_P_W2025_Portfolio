@@ -1,0 +1,55 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(135deg, #1e1e1e, #343a40);
+    color: white;
+    text-align: center;
+}
+
+.hero-section {
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-bottom: 20px;
+}
+
+.hero-title {
+    font-size: 3.5rem;
+    font-weight: bold;
+    animation: floatUp 1.5s ease-in-out;
+}
+
+.hero-title .highlight {
+    color: #4CAF50;
+}
+
+.hero-subtitle {
+    font-size: 1.5rem;
+    color: #a8dadc;
+    margin-top: 10px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin-top: 20px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    background-color: #4CAF50;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s ease-in-out;
+}
+
+.cta-button:hover {
+    transform: scale(1.1);
+    background-color: #45a049;
+}

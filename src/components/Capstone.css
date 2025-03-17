@@ -1,0 +1,14 @@
+
+.capstone-container {
+  padding: 20px;
+  text-align: center;
+}
+
+.capstone-container h1 {
+  color: #007bff;
+}
+
+.capstone-container p {
+  font-size: 1.2rem;
+  margin-top: 10px;
+}

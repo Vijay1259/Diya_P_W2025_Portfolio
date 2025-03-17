@@ -1,0 +1,43 @@
+
+.resume h2 {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.fade-in {
+    animation: fadeIn 1.5s ease-in;
+}
+
+.slide-in {
+    animation: slideIn 1.5s ease-out;
+}
+
+.bounce-in {
+    animation: bounceIn 1.5s ease-in-out;
+}
+
+.zoom-in {
+    animation: zoomIn 1.5s ease-in;
+}
+
+/* Keyframes for animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes slideIn {
+    from { transform: translateX(-50px); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+
+@keyframes bounceIn {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
+
+@keyframes zoomIn {
+    from { transform: scale(0.5); opacity: 0; }
+    to { transform: scale(1); opacity: 1; }
+}
